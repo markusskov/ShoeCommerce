@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap");
+
+body {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 20px 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.header__logo {
+  display: flex;
+  margin-right: auto;
+}
+
+.header__logo-text {
+  font-weight: bold;
+  margin: auto;
+  margin: 15px;
+  font-size: 1.5rem;
+}
+
+.header__list {
+  list-style: none;
+}
+
+.header__item {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.header__link {
+  font-weight: 600;
+  text-decoration: none;
+  color: #707070;
+  text-transform: uppercase;
+}
+
+.header__link--active {
+  font-weight: 600;
+  text-decoration: none;
+  color: #ff0073;
+  text-transform: uppercase;
+}
+
+/* Intro Section */
+
+.intro__image {
+  background: url("/img/bg.png") no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 700px;
+  position: absolute;
+}
+
+.intro__heading h1 {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 100px;
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.intro__heading h1 span {
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+.intro__copy {
+  width: 390px;
+  position: relative;
+  margin-top: -430px;
+  margin-left: 100px;
+  line-height: 2rem;
+}
+
+.intro__shoe {
+  position: relative;
+  margin-left: 600px;
+  margin-top: 50px;
+  width: 700px;
+}
+
+.intro__right-arrow {
+  position: relative;
+  margin-left: 1300px;
+  margin-top: -100px;
+  cursor: pointer;
+}
+
+.intro__button {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 100px;
+  border: none;
+  padding: 20px 80px;
+  border-radius: 40px;
+  color: #ff0073;
+  background-color: white;
+  font-weight: 600;
+  box-shadow: 7px 12px 20px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.intro__button:hover {
+  color: white;
+  background-color: #ff0073;
+  transition: all 0.3s;
+}
